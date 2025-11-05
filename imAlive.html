@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TruthArchive</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+      body {
+        background-color: #0a0a0a;
+        color: #ddd;
+        font-family: "Roboto Mono", monospace;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+      }
+
+      .forum-container {
+        background-color: #111;
+        width: 80%;
+        max-width: 800px;
+        margin-top: 60px;
+        border: 1px solid #333;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+        padding: 20px;
+      }
+
+      .post-header {
+        border-bottom: 1px solid #222;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      .username {
+        color: #4da6ff;
+        font-weight: 700;
+      }
+
+      .timestamp {
+        color: #888;
+        font-size: 0.9rem;
+        margin-left: 10px;
+      }
+
+      .post-content {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: #e0e0e0;
+        white-space: pre-line;
+      }
+
+      .reply {
+        border-top: 1px solid #222;
+        margin-top: 25px;
+        padding-top: 15px;
+      }
+
+      .reply .username {
+        color: #ffcc66;
+      }
+
+      .footer-note {
+        text-align: center;
+        margin-top: 40px;
+        color: #555;
+        font-size: 0.8rem;
+      }
+
+      .footer-note::before {
+        content: "— End of Thread —";
+        display: block;
+        margin-bottom: 10px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="forum-container">
+      <div class="post-header">
+        <span class="username">User_3941</span>
+        <span class="timestamp">Posted on Oct 30, 2025 - 10:14 PM</span>
+      </div>
+
+      <div class="post-content">
+        I think I found something I shouldn't have.<br />
+        The Department of Cognitive Research has always been a bit off...<br />
+        I'll share more later this is freaking me out.
+      </div>
+
+      <div class="reply">
+        <span class="username">Admin</span>
+        <span class="timestamp">Oct 30, 2025 - 10:19 PM</span>
+        <div class="post-content">
+          Moderators have removed this message please check your email.
+        </div>
+      </div>
+
+      <div class="footer-note"></div>
+    </div>
+  </body>
+</html>
